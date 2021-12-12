@@ -17,7 +17,7 @@
 
 	<?php
 
-		$errors=array('password'=>'','re_password'=>'');
+		$errors=[];
 		$password=$re_password="";
         $password_change="";
 
@@ -43,15 +43,17 @@
 
 			$password=md5($password);
             $email=$_SESSION['email'];
+
+			if(empty($errors)){
+				$passwordUpdate = updateUserInfo($password,$email);
+				if($passwordUpdate){
+					$password_change='You have successfully changed your password.';
+				}
+			}
 		
 
 			// create post if not empty
-			$passwordUpdate = updateUserInfo($password,$email);
-			if($passwordUpdate){
-				// print("Password updated");
-				// header("location: passwordResetMessage.php");
-			    $password_change='You have successfully changed your password.';
-			}
+			
 		}
 
 	?>
