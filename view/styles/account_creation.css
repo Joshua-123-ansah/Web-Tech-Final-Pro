@@ -1,0 +1,69 @@
+/* Accout LogIN */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #851c2a;
+    height: 99vh;
+}
+
+.nav-main{
+    background:#fff;
+    display:flex;
+    justify-content: space-around;
+    padding: 8px;
+    height: 5%;
+    align-items: center;
+}
+
+
+.nav-main h2 a{
+    text-decoration: none;
+    color: #851c2a;
+}
+
+.nav-main h2 a:hover{
+    color: #00000088;
+}
+
+
+
+.main-form{
+    width:550px;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.form-control{
+    width: 400px;
+}
+
+.btn-primary{
+    background-color: #851c2a;
+}
+
+.btn-primary:hover{
+    background-color: #36292b;
+}
+
+.footer-main{
+    background-color: #fff;
+    color: #851c2a;
+    font-size:15px;
+    font-weight:bold;
+    height:3%;
+    align-items: center;
+}
+
+main{
+    height: 93%;
+    align-items: center;
+}
+

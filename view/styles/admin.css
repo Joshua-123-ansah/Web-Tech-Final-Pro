@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+    height: 99vh;
+}
+
+.my_container{
+    display: flex;
+    width: 100vw;
+    height: 93%;
+}
+
+.sidebar {
+    left: 0;
+    width: 20%;
+    background: #851c2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.home a{
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+    font-size:2em;
+}
+
+
+.home a:hover{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.LogOut a{
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+    font-size:2em;
+}
+
+.LogOut a:hover{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.info img{
+    border-radius:100%;
+    width: 150px;
+    height: auto;
+}
+
+
+.other_side{
+    background-color:#fff;
+    width: 80%;
+    height:92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.analytics{
+    height:50%;
+    width:80%;
+    border-radius:2%;
+}
+.my_bu{
+    background-color:#851c2a;
+}
+
+.cus-button{
+    background-color:#851c2a;
+    width:200px;
+    height:50px;
+    border-style: none;
+    display:block;
+    margin:10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.cus-button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(33, 33, 34, 0.788) 0px 7px 29px 0px;
+}
+
+.cus-button a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.rev-main{
+    display:flex;
+    justify-content: space-around;
+}
+
+.revenue{
+    width:30%;
+    height:190px;
+    background-color:#851c2a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.revenue:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(33, 33, 34, 0.788) 0px 7px 29px 0px;
+}
+
+.ana{
+    color: #851c2a;
+}
+

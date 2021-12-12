@@ -1,0 +1,6 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}

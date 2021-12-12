@@ -1,0 +1,9 @@
+Done: For the login, I must check why I cannot validate the username.
+
+
+Done:On the login page, I must have forgotten password
+
+
+
+
+Done: Work the validation on all the forms.
