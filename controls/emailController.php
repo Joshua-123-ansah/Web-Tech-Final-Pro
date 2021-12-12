@@ -31,7 +31,7 @@ require_once '../model/db_cred.php';
         </head>
         <body>
             <p style="font-size:30px">Hello there, please click on the link below to reset your password</p>
-            <a href="http://localhost/Final_Individual_Project/view/passwordResetPage.php" style="color:#851c2a;font-size:30px">reset your password</a>
+            <a href="http://20.90.159.91/Final_Individual_Project/view/passwordResetPage.php" style="color:#851c2a;font-size:30px">reset your password</a>
         </body>
         </html>
         ';
